@@ -92,8 +92,14 @@ const translations = {
         'contact.text': 'Je suis à la recherche d\'un stage pour consolider mes acquis et apporter ma valeur à votre équipe. N\'hésitez pas à me contacter.',
         'contact.cta': 'Dites bonjour',
 
+        // Write-ups
+        'writeups.title': 'Write-ups HTB',
+        'writeups.intro': 'Analyse et solutions détaillées des challenges Hack The Box que j\'ai résolus, avec la méthodologie utilisée pour obtenir les flags.',
+        'writeups.empty': 'Aucun write-up publié pour le moment. Revenez bientôt !',
+
         // Footer
-        'footer': '&copy; 2026 Flavio KOUGBADI. Conçu et développé avec passion.'
+        'footer': '&copy; 2026 Flavio KOUGBADI. Conçu et développé avec passion.',
+        'footer.writeups': 'Write-ups HTB'
     },
 
     en: {
@@ -188,8 +194,14 @@ const translations = {
         'contact.text': 'I am looking for an internship to consolidate my skills and bring value to your team. Feel free to reach out.',
         'contact.cta': 'Say hello',
 
+        // Write-ups
+        'writeups.title': 'HTB Write-ups',
+        'writeups.intro': 'Detailed walkthroughs of the Hack The Box challenges I solved, including the methodology used to obtain the flags.',
+        'writeups.empty': 'No write-up published yet. Check back soon!',
+
         // Footer
-        'footer': '&copy; 2026 Flavio KOUGBADI. Designed and developed with passion.'
+        'footer': '&copy; 2026 Flavio KOUGBADI. Designed and developed with passion.',
+        'footer.writeups': 'HTB Write-ups'
     }
 };
 

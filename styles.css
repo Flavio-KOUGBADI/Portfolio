@@ -876,6 +876,48 @@ footer {
     font-size: 0.875rem;
 }
 
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-link {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.footer-link:hover {
+    color: var(--text-main);
+    text-decoration: underline;
+}
+
+/* Write-ups Section */
+.writeups-intro {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    line-height: 1.75;
+    max-width: 60ch;
+    margin-bottom: 2.5rem;
+    text-wrap: pretty;
+}
+
+.writeups-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.writeups-empty {
+    border: 1px dashed var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 3rem 2rem;
+    text-align: center;
+    color: var(--text-muted);
+}
+
 /* FIX: reveal — content visible by default, motion as enhancement only */
 .reveal {
     /* no opacity:0 default — content must be visible without JS */

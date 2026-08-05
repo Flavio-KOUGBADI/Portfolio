@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write-ups HTB | Flavio KOUGBADI</title>
+    <meta name="description"
+        content="Write-ups des challenges Hack The Box résolus par Flavio KOUGBADI : méthodologie et solutions détaillées.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Dynamic Background Elements -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- Mobile nav drawer -->
+    <div class="mobile-nav-overlay" id="nav-overlay"></div>
+    <nav class="mobile-nav" id="mobile-nav">
+        <a href="index.html#about" class="nav-link" data-i18n="nav.about">À propos</a>
+        <a href="index.html#skills" class="nav-link" data-i18n="nav.skills">Compétences</a>
+        <a href="index.html#certifications" class="nav-link" data-i18n="nav.certifications">Certifications</a>
+        <a href="index.html#projects" class="nav-link" data-i18n="nav.projects">Projets</a>
+        <a href="index.html#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+        <a href="assets/Flavio_KOUGBADI_CV.pdf" class="nav-link" target="_blank">
+            <i class="fa-solid fa-file-pdf"></i> <span data-i18n="nav.cv">CV</span>
+        </a>
+    </nav>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">Flavio<span>.</span></a>
+        <nav class="nav-links">
+            <a href="index.html#about" class="nav-link" data-i18n="nav.about">À propos</a>
+            <a href="index.html#skills" class="nav-link" data-i18n="nav.skills">Compétences</a>
+            <a href="index.html#certifications" class="nav-link" data-i18n="nav.certifications">Certifications</a>
+            <a href="index.html#projects" class="nav-link" data-i18n="nav.projects">Projets</a>
+            <a href="index.html#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+            <a href="assets/Flavio_KOUGBADI_CV.pdf" class="nav-link cv-link" target="_blank">
+                <i class="fa-solid fa-file-pdf"></i> <span data-i18n="nav.cv">CV</span>
+            </a>
+        </nav>
+        <div class="navbar-actions">
+            <button class="lang-toggle-btn" id="lang-toggle-btn" aria-label="Switch language"
+                data-i18n-aria="aria.lang-toggle">
+                <i class="fa-solid fa-globe"></i>
+                <span class="lang-current">EN</span>
+            </button>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Ouvrir le menu"
+                aria-expanded="false" data-i18n-aria="aria.menu.open">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Write-ups Section -->
+        <section id="writeups" class="writeups section">
+            <div class="container reveal">
+                <h2 class="section-title"><span class="accent-text" data-i18n="writeups.title">Write-ups HTB</span></h2>
+                <p class="writeups-intro" data-i18n="writeups.intro">
+                    Analyse et solutions détaillées des challenges Hack The Box que j'ai résolus, avec la méthodologie utilisée pour obtenir les flags.
+                </p>
+
+                <div id="writeups-list" class="writeups-list">
+                    <p class="writeups-empty" data-i18n="writeups.empty">
+                        Aucun write-up publié pour le moment. Revenez bientôt !
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer">&copy; 2026 Flavio KOUGBADI. Conçu et développé avec passion.</p>
+            <a href="writeups.html" class="footer-link" data-i18n="footer.writeups">Write-ups HTB</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
